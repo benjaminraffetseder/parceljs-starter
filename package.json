@@ -1,0 +1,24 @@
+{
+  "name": "parceljs-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel watch src/app.js -d dist/",
+    "build": "parcel build src/app.js -d dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjaminraffetseder/parceljs-starter.git"
+  },
+  "author": "Benjamin Raffetseder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benjaminraffetseder/parceljs-starter/issues"
+  },
+  "homepage": "https://github.com/benjaminraffetseder/parceljs-starter#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.2",
+    "sass": "^1.17.3"
+  }
+}
